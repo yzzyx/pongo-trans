@@ -29,6 +29,10 @@ See template tag usage below.
 
 ## Example
 
+Below is a simple example showing how to set up the translation package.
+For a full example, see the [_example](https://github.com/yzzyx/pongo-trans/tree/master/_example/) folder, that showcases a simple
+webserver with translated HTML template.
+
 ```
 package main
 
