@@ -75,6 +75,18 @@ func main() {
 }
 ```
 
+## Updating translationfiles
+
+After adding the *trans* and *blocktrans* tags to your templates, you can use the [makemessage](https://github.com/yzzyx/makemessage)
+command to update your ".po"-files with the new translations.
+
+```
+## NOTE! Make sure that gettext is installed before running makemessage
+$ go install github.com/yzzyx/makemessage
+$ makemessage -l sv_SE -t templates
+```
+
+
 ## trans template tag
 
 
