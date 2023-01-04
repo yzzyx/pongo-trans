@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% trans "Translation example" %}</title>
+</head>
+<body>
+
+<p>
+{% blocktrans %}
+This example shows how translations can be used in {{p2}} templates.
+{% endblocktrans %}
+</p>
+
+
+<p>
+{% blocktrans count visited=visited %}
+You've visited this page {{visited}} time.
+{% plural %}
+You've visited this page {{visited}} times.
+{% endblocktrans %}
+</p>
+
+{% trans "Change language" as chlang %}
+<form method="get">
+    <label>
+        <select name="lang">
+            <option value="">{% trans "Select language..." %}</option>
+            <option value="en_GB">{% trans "English" %}</option>
+            <option value="sv_SE">{% trans "Swedish" %}</option>
+        </select>
+    </label>
+    <button type="submit">{{chlang}}</button>
+</form>
+
+</body>
+</html>

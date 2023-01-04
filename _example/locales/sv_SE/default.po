@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: "
+"2019-11-29 14:11+0000\n"
+"PO-Revision-Date: "
+"2023-01-04 09:57+0100\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; "
+"plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+
+#: templates/index.html:4
+msgid "Translation example"
+msgstr "Översättingsexempel"
+
+#: templates/index.html:9
+msgid ""
+"\n"
+"This example shows how "
+"translations can be used "
+"in {{p2}} templates.\n"
+msgstr ""
+"\n"
+"Detta exempel visar hur "
+"översättningar kan "
+"användas i {{p2}}-"
+"mallar.\n"
+
+#: templates/index.html:15
+msgid ""
+"\n"
+"You've visited this page "
+"{{visited}} time.\n"
+msgid_plural ""
+"\n"
+"You've visited this page "
+"{{visited}} times.\n"
+msgstr[0] ""
+"\n"
+"Du har besökt denna sida "
+"{{visited}} gång.\n"
+msgstr[1] ""
+"\n"
+"Du har besökt denna sida "
+"{{visited}} gånger.\n"
+
+#: templates/index.html:19
+msgid "Change language"
+msgstr "Byt språk"
+
+#: templates/index.html:22
+msgid "Select language..."
+msgstr "Välj språk..."
+
+#: templates/index.html:23
+msgid "English"
+msgstr "Engelska"
+
+#: templates/index.html:24
+msgid "Swedish"
+msgstr "Svenska"
